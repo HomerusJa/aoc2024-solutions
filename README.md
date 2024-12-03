@@ -1,9 +1,9 @@
-# Advent of Code 2024
+# 🎄 Advent of Code 2024
 
 This repository contains my solutions for the [Advent of Code 2024](https://adventofcode.com) challenge. I will be using
 Python for all the solutions.
 
-## Usage
+## 🚀 Usage
 
 If you want to run any of the solutions, they can just be run as python scripts. For example, to run the solution for
 day 1 part 2, you can run the following command:
@@ -13,18 +13,18 @@ cd aoc2024-solutions
 python ./solutions/day01/part2.py
 ```
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENCE](LICENCE) file for details. You can do whatever you
 want with this code.
 
-## Solutions
+## 🧩 Solutions
 
 Now the fun part, the solutions! Below you can find a list of all the solutions I have written for the Advent of Code
 2024 and maybe some thoughts on them.
 
 
-### Day 1
+### 🌟 Day 1
 
 | Type            | Link                                                             |
 |-----------------|------------------------------------------------------------------|
@@ -41,7 +41,7 @@ part, which I just copied over. This is probably not the best way to do this, bu
 one file so that you can run and copy them easily. Again, I saw some opportunities to experiment with Python's features.
 For example, I used the collections.Counter to count the number of values easily.
 
-### Day 2
+### 🔢 Day 2
 
 | Type            | Link                                                             |
 |-----------------|------------------------------------------------------------------|
@@ -52,6 +52,7 @@ For example, I used the collections.Counter to count the number of values easily
 The second day of the Advent of Code 2024 was a bit more challenging. I reused some ideas from the first day, like 
 `map(int, ...)` to convert the strings to integers. In my opinion, I found a really nice way to check whether the values
 strictly increasing or decreasing (`is_monotonic` function) where I just compared the sorted list with the original list.
+
 In the second part, you were asked to check whether you could just remove one value to make the report valid. In my code
 where I computed the different options, I had some issues because my solution was like not readable at all. With the
 way I did it, I also ran into some issues as I forgot to copy the list before removing certain values. Following the old
@@ -77,7 +78,7 @@ levels_options.extend(
 
 What a beauty (-: This is why I love programming. You can always learn new things and improve your code.
 
-### Day 3
+### 🧮 Day 3
 
 | Type            | Link                                                             |
 |-----------------|------------------------------------------------------------------|
