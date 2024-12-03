@@ -7,6 +7,10 @@ def main() -> None:
         enabled: bool = True
         total_sum: int = 0
 
+        # Match any of the following:
+        # - mul(a, b)
+        # - do()
+        # - don't()
         for match in re.finditer(r"mul\((\d+),(\d+)\)|do\(\)|don't\(\)", file.read()):
             instruction = match.group()
             if instruction == "do()":
