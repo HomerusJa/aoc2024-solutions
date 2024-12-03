@@ -29,8 +29,7 @@ def main() -> None:
     counts = Counter(right_values)
 
     print("Calculating the similarity score...")
-    for num in left_values:
-        similarity_score += counts[num] * num
+    similarity_score = sum(counts[num] * num for num in left_values)
 
     print(f"The similarity score is {similarity_score}.")
 
