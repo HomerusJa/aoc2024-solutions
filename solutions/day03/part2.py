@@ -13,6 +13,7 @@ def main() -> None:
                 enabled = True
             elif instruction == "don't()":
                 enabled = False
+            # elif instruction.startswith("mul("):
             else:
                 if enabled:
                     a, b = map(int, match.groups())
