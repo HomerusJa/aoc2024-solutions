@@ -9,7 +9,6 @@ def is_monotonic(levels: list[int]) -> bool:
 
 def check_differences(levels: list[int], max_diff: int) -> bool:
     """Check...
-
     1. if the differences between the levels are less than or equal to the max_diff.
     2. if no two levels are equal.
     """
