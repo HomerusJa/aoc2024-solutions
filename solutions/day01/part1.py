@@ -26,7 +26,7 @@ def main() -> None:
     right_values.sort()
 
     print("Calculating the sum of differences...")
-    for left, right in zip(left_values, right_values, strict=False):
+    for left, right in zip(left_values, right_values, strict=True):
         # We need to use abs() because the difference can be negative.
         sum_of_differences += abs(left - right)
 
